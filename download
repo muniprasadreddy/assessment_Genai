@@ -1,0 +1,33 @@
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ── Tooling caches ───────────────────────────────────────────────────────────
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ── Environment / secrets ────────────────────────────────────────────────────
+.env
+backend/.env
+*.log
+
+# ── OS / IDE ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ── Data artifacts (keep folders via .gitkeep) ───────────────────────────────
+data/documents/*
+data/reports/*
+!data/documents/.gitkeep
+!data/reports/.gitkeep
+
+# local share artifact
+muni-project.zip
